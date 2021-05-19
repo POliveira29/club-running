@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Running Club - Treino</title>
+    <meta name="description"
+        content="Bem vindo ao Running Club. Aqui você vai encontrar pessoas apaixonadas por corrida, que irão te ajudar a melhorar seu desempenho na corrida." />
+    <meta name="robots" content="index">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://poliveira29.github.io/club-running/">
+    <meta property="og:title" content="Título do Conteúdo">
+    <meta property="og:image" content="https://exemplo.com/imagem.jpg">
+    <meta property="og:description"
+        content="Bem vindo ao Running Club. Aqui você vai encontrar pessoas apaixonadas por corrida, que irão te ajudar a melhorar seu desempenho na corrida.">
+    <meta property="og:site_name" content="Running Club">
+    <meta property="og:locale" content="pt_BR">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./images/favico16x16.png">
+    <link rel="apple-touch-icon" href="./images/favico256x256.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/module.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./vendor/leaflet.css">
+</head>
+
+<body>
+    <section class="hero">
+        <header class="header">
+            <div class="wrapper">
+                <button type="menu" class="header__menu">
+                    <span class="menu-bar"></span>
+                </button>
+                <a href="./index.html" class="header__logo">Running Club</a>
+            </div>
+            <nav class="navbar" role="navigation">
+                <a href="./index.html" class="navbar__item">Home</a>
+                <a href="./training.html" class="navbar__item">Treino</a>
+                <a href="./blog.html" class="navbar__item">Blog</a>
+                <a href="./contact.html" class="navbar__item">Contato</a>
+            </nav>
+            <a href="#" class="btn btn-primary btn-primary--visibility header__btn">Inscreva-se</a>
+        </header>
+        <div class="hero__content">
+            <span class="hero__title">Treinamento</span>
+            <span class="hero__subtitle">Exercícios de core para corredores</span>
+        </div>
+    </section>
+    <main>
+        <section class="exercises container">
+            <h1 class="title">Exercícios de core para <b>corredores</b></h1>
+            <h2 class="subtitle">Confira alguns exercícios para desenvolver o seu core</h2>
+            <div class="exercises__content">
+                <div class="exercises__card">
+                    <img src="./images/exercise-banner-1.jpg" alt="Banner">
+                    <a href="#">
+                        <h2 class="card__title">6 exercícios efetivos para o core utilizando uma banda de
+                            resistência
+                        </h2>
+                    </a>
+                    <p class="card__description">Lorem ipsum dolor sit asectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolna aliquaim ad minim veniam, quis noris nis</p>
+                </div>
+                <div class="exercises__card">
+                    <img src="./images/exercise-banner-2.jpg" alt="Banner">
+                    <a href="#">
+                        <h2 class="card__title">7 exercícios de abdomen para aquecer seu core antes da sua próxima
+                            corrida
+                        </h2>
+                    </a>
+                    <p class="card__description">Lorem ipsum dolor sit asectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolna aliquaim ad minim veniam, quis noris nis</p>
+                </div>
+                <div class="exercises__card">
+                    <img src="./images/exercise-banner-3.jpg" alt="Banner">
+                    <a href="#">
+                        <h2 class="card__title">Esse é o tempo que você precisa segurar a prancha pra ver os
+                            resultados
+                        </h2>
+                    </a>
+                    <p class="card__description">Lorem ipsum dolor sit asectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolna aliquaim ad minim veniam, quis noris nis</p>
+                </div>
+                <div class="exercises__card">
+                    <img src="./images/article-banner-2.jpg" alt="Banner">
+                    <a href="#">
+                        <h2 class="card__title">Siga esse caminho - um guia de fisiologistas para caminhar!
+                        </h2>
+                    </a>
+                    <p class="card__description">Lorem ipsum dolor sit asectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolna aliquaim ad minim veniam, quis noris nis</p>
+                </div>
+                <div class="exercises__card">
+                    <img src="./images/banner-training-5.jpg" alt="Banner">
+                    <a href="#">
+                        <h2 class="card__title">Como o exercício pode ajudar você a atingir suas metas nesse ano</h2>
+                    </a>
+                    <p class="card__description">Lorem ipsum dolor sit asectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolna aliquaim ad minim veniam, quis noris nis</p>
+                </div>
+                <div class="exercises__card">
+                    <img src="./images/banner-training-1.jpg" alt="Banner">
+                    <a href="#">
+                        <h2 class="card__title">Locais de trabalho ativos podem ajudar a melhorar a saúde mental dos
+                            funcionários</h2>
+                    </a>
+                    <p class="card__description">Lorem ipsum dolor sit asectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolna aliquaim ad minim veniam, quis noris nis</p>
+                </div>
+            </div>
+        </section>
+        <section class="marathons">
+            <div id="map-marathon"></div>
+            <div class="marathons__content">
+                <span class="title">Nossa última <b>maratona</b></span>
+                <p class="marathons__description">
+                    Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus
+                    varius
+                    laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
+                </p>
+                <a class="btn btn-primary" href="#">Saiba mais</a>
+            </div>
+        </section>
+        <section class="trainers container">
+            <span class="title">Nossas personal <b>trainers</b></span>
+            <p class="subtitle">Lorem ipsum dolor sit asectetur adipisicing elit</p>
+            <div class="trainers__content">
+                <div class="trainers__card">
+                    <img src="./images/personal-1.jpg" alt="Personal">
+                    <h3 class="trainers__name">Íris Furtado</h3>
+                    <span class="trainers__role">Personal Trainer</span>
+                    <div class="trainers__social">
+                        <a class="social-item" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-item" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="social-item" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="trainers__card">
+                    <img src="./images/personal-2.jpg" alt="Personal">
+                    <h3 class="trainers__name">Alícia Estrada</h3>
+                    <span class="trainers__role">Personal Trainer</span>
+                    <div class="trainers__social">
+                        <a class="social-item" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-item" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="social-item" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="trainers__card">
+                    <img src="./images/personal-3.jpg" alt="Personal">
+                    <h3 class="trainers__name">Rúbia Fitas</h3>
+                    <span class="trainers__role">Personal Trainer</span>
+                    <div class="trainers__social">
+                        <a class="social-item" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-item" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="social-item" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="trainers__card">
+                    <img src="./images/personal-4.jpg" alt="Personal">
+                    <h3 class="trainers__name">Sheila Brito</h3>
+                    <span class="trainers__role">Personal Trainer</span>
+                    <div class="trainers__social">
+                        <a class="social-item" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-item" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="social-item" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <span class="title">Comece a correr <b>Hoje</b></span>
+        <p class="footer__description">Lorem ipsum dolor sit asectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolna aliquaim ad minim veniam, quis noris nis</p>
+        <a class="btn btn-primary" href="#">Junte-se ao Club</a>
+        <span class="footer__copyrights">&copy; Todos os direitos reservados</span>
+    </footer>
+    <div class="btn-to-top"></div>
+    <!-- Scripts -->
+    <script src="./vendor/jquery-11.0.min.js"></script>
+    <script src="./vendor/leaflet.js"></script>
+    <script src="./js/mapMarathon.js"></script>
+    <script src="./js/toggleMenu.js"></script>
+    <script src="./js/scrollToTop.js"></script>
+</body>
+
+</html>

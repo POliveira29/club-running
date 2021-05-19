@@ -1,0 +1,85 @@
+.hero__content--bg1 {
+  background: url("../images/hero-3.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.contact-us {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-us__input {
+  width: 100%;
+  padding-left: 1rem;
+  padding-bottom: 0.6rem;
+  margin-bottom: 2rem;
+  font-size: 2.6rem;
+  color: var(--clr-text);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.contact-us__input::placeholder {
+  font-family: var(--fnt-title);
+  color: var(--clr-text);
+}
+
+.contact-us__input--textarea {
+  height: 55px;
+}
+
+.join-us {
+  height: 30vh;
+  margin: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  padding-bottom: 4rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
+    url("../images/banner-training-3.jpg") no-repeat center;
+  background-size: cover;
+}
+.join-us__title {
+  width: 60%;
+  font-size: 2.4rem;
+  color: var(--clr-secondary);
+}
+
+.join-us__media {
+  display: flex;
+}
+
+.join-us__item {
+  margin: 0 1rem;
+  font-size: 3rem;
+  color: var(--clr-secondary);
+  transition: color 0.2s ease-in-out;
+}
+.join-us__item:hover {
+  color: var(--clr-primary);
+}
+.footer {
+  height: auto;
+  padding: 0;
+}
+.localization {
+  width: 100%;
+}
+
+#map-localization {
+  width: 100%;
+  height: 400px;
+  z-index: 1;
+}
+
+.footer__copyrights {
+  padding: 3rem 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .join-us {
+    height: 60vh;
+  }
+}

@@ -1,0 +1,86 @@
+:root {
+  --clr-primary: #fb681a;
+  --clr-secondary: #fff;
+  --clr-terciary: #585858;
+
+  --clr-text: #000;
+
+  --fnt-title: "Oswald", sans-serif;
+  --fnt-text: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* user-agent font-size is 16px, let's make it responsive */
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%; /* 15px */
+  }
+}
+
+@media (max-width: 970px) {
+  html {
+    font-size: 87.5%; /* 14px */
+  }
+}
+
+@media (max-width: 700px) {
+  :root {
+    font-size: 75%; /* 12px */
+  }
+}
+
+@media (max-width: 590px) {
+  :root {
+    font-size: 62.25%; /* 10px */
+  }
+}
+
+body {
+  font-family: var(--fnt-text);
+}
+
+button {
+  font-family: var(--fnt-title);
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+input,
+textarea {
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
