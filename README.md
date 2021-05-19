@@ -15,6 +15,7 @@
 Um site de um clube de corrida.
 
 ## 🎨 Layout
+Foi utilizado como base o site https://bridge290.qodeinteractive.com/
 
 ## Utilitários
 - Imagens:<br/>
