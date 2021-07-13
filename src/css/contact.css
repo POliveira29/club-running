@@ -26,7 +26,8 @@
 }
 
 .contact-us__input--textarea {
-  height: 55px;
+    height: 105px;
+    resize: vertical;
 }
 
 .join-us {
